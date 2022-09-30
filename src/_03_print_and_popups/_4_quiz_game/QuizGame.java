@@ -45,6 +45,6 @@ public class QuizGame {
 				}
 
 		// After all the questions have been asked, tell the user their final score 
-		
+		JOptionPane.showInputDialog(null,"Score: " + score);
 	}
 }
