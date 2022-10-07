@@ -80,7 +80,7 @@ int wallColor = -4621737;
 
 		
 		
-		if (mouseColor == wallColor) {
+		if (mouseColor == wallColor && started == true) {
 		
 		
 			//9. If the mouse falls off the path (which means it is on the background color)
@@ -116,7 +116,7 @@ playScarySound("standardScarySound.wav");
 
 		//12. Find a scary image and drop it into the _04_amazing_games._1_scary_maze package. 
 		//    Use the showScaryImage method below and send it the name of your picture file
-		
+		showScaryImage("scary_image.jpeg");
 		
 	}
 	
